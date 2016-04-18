@@ -1,0 +1,317 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 950px;
+	margin: 0px auto;
+}
+
+header{
+	height: 100px;
+	width: 950px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.top{
+	width: 950px;
+	height: 6px;
+}
+
+.red{
+	width: 35px;
+	height: 6px;
+	float: left;
+	background: #ce0160;
+}
+.green{
+	width: 35px;
+	height: 6px;
+	float: left;
+	background: #a0cc05;
+}
+.blue{
+	width: 35px;
+	height: 6px;
+	float: left;
+	background: #0192c1;
+}
+.black{
+	width: 835px;
+	height: 6px;
+	float: left;
+	background: #292929;
+}
+.logo{
+	width: 170px;
+	height: 80px;
+	margin: 30px 0px 0px 25px;
+	background-image: url("../images/logo.png");
+	
+}
+.logo a{
+	 display: block;
+	 text-indent: -9999px;
+}
+.logo a:hover{
+	opacity: 0.6;
+}
+.Socialmenu{
+	right: 30px;
+	top: 20px;
+	float: right;
+	position: absolute;
+}
+.Socialmenu li{
+	float: left;
+	margin-left: 10px;
+}
+.Socialmenu li a{
+	text-decoration: none;
+}
+.Socialmenu li a:hover{
+	opacity: 0.5;
+}
+.menu{
+	right: 30px;
+	float: right;
+	bottom: 5px;
+	position: absolute;
+}
+.menu li{
+	float: left;
+	margin-left: 40px;
+	list-style-type: none;
+	list-style: none;
+}
+.menu li a{
+	display:  block;
+	color: #272727;
+	height: 20px;
+	font-weight: 700px;
+	font-size: 16px;
+	text-decoration: none;
+}
+.MainColor, li a:hover{
+	color: #01a5ca;
+	text-decoration: none;
+}
+.MainVisual{
+	width: 950px;
+	height: 415px;
+}
+.MainSlider{
+	width: 640px;
+	float: left;
+}
+.MainSlider a:hover img{
+	opacity: 0.7;
+}
+
+.MainTitle{
+	width: 300px;
+	height: 415px;
+	float: left;
+	background: #292929;
+}
+.MainTitle p{
+	top: 60px;
+	left: 40px;
+	font-size: 18px;
+	color: #9e9e9e;
+	line-height: 25px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.MainButton{
+	width: 120px;
+	height: 30px;
+	top: 85px;
+	left: 40px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: #3f3f3f;
+	position: relative;
+	padding-top: 13px;
+	padding-left: 20px;
+}
+.MainButton a{
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.Introduction{
+	width: 870px;
+	color: #272727;
+	background: #FFFFFF;
+	margin-top: 35px;
+	padding: 25px 30px 20px 40px;
+}
+.Introduction p {
+	font-size: 17px;
+	line-height: 33px;
+}
+.Content{
+	width: 870px;
+	overflow: hidden;
+	background: #FFFFFF;
+	margin-top: 35px;
+	padding: 25px 30px 25px 40px;
+}
+
+.EventContent{
+	line-height: 25px;
+	color: #272727;
+	width: 575px;
+	float: left;
+	margin-right: 65px;
+}
+
+.EventContent img{
+	float: left;
+	margin-right: 30px;
+	border: #f4f4f4 5px solid;
+}
+
+.EventBox{
+	padding-bottom: 25px;
+}
+
+.EventWrap{
+	overflow: hidden;
+}
+
+.EventContent li{
+	float: left;
+	margin-right: 15px;
+	padding-top: 10px;
+	text-decoration: none;
+  	color: #272727;
+  	list-style: none;
+}
+
+.ServiceContent{
+	width: 225px;
+	float: left;
+}
+.ServiceContent ul{
+	padding-left: 10px;
+}
+.ServiceContent li{
+	color: #272727;
+	list-style-image: url("../images/dot_blue.gif");
+	line-height: 25px;
+	padding-bottom: 5px;
+}
+.SearchContent{
+	width: 225px;
+	float: left;
+	margin-top: 22px;
+}
+.SearchButton{
+	background: #dddddd;
+	width: 90px;
+	height: 30px;
+	font-size: 16px;
+	color: #01a5ca;
+	position: relative;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.SearchButton:hover{
+	background: #888888;
+	color: #FFFFFF;
+}
+.ServiceContent a{
+	font-size: 14px;
+	color: #272727;
+	text-decoration: none;
+}
+footer{
+	width: 940px;
+	text-align: center;
+	top: 1150px;
+	line-height: 20px;
+	padding: 30px 0 40px 0;
+}
+.MainButton a:hover{
+	opacity: 0.5;
+}
+/*.menu a:hover{
+	background: #888888;
+	color: #FFFFFF;
+	font-size: 18px;
+}*/
+input{
+	color: #CCC;
+	font-size: 13px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+}
+h1{
+	color: #01a5ca;
+	top: 50px;
+	left: 40px;
+	font-size: 45px;
+	margin-bottom: 10px;
+	position: relative;
+}
+body{
+	background-image: url('../images/bg_html.jpg');
+	font: 14px Arial, Helvetica, sans-serif;
+}
+h2{
+	line-height: 36px;
+	padding-bottom: 15px;
+	font-size: 30px;
+	position: relative;
+}
